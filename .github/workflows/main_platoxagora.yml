@@ -66,5 +66,4 @@ jobs:
         with:
           app-name: 'platoxagora'
           slot-name: 'Production'
-          startup-command: './start.sh'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C70AB70157CD47098E632A9C6531CA2F }}
